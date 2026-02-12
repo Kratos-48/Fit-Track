@@ -108,7 +108,7 @@ Analytics dashboard
 
 👨‍💻 Author
 
-Saqeeb Chougle
+Shakeeb Chougle
 
 ===
 
