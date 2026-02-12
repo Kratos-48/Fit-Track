@@ -36,28 +36,25 @@ The project focuses on **simplicity, scalability, and real-world usability**, ma
 
 ## 📂 Project Structure
 
-Fit-Track/
-│
-├── backend/
-│ ├── models/
-│ ├── routes/
-│ ├── controllers/
-│ ├── config/
-│ └── server.js
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ └── services/
-│
-└── README.md
+### Backend (`src/`)
+- `src/models/` – MongoDB schemas and data models  
+- `src/routes/` – API route definitions  
+- `src/controllers/` – Business logic and request handling  
+- `src/config/` – Database and environment configuration  
+- `src/server.js` – Backend application entry point  
 
+### Frontend
+- `frontend/src/components/` – Reusable UI components  
+- `frontend/src/pages/` – Page-level components  
+- `frontend/src/services/` – API communication logic  
 
+### Root
+- `README.md` – Project documentation
+---
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/Fit-Track.git
 cd Fit-Track
@@ -82,6 +79,7 @@ cd frontend
 npm install
 npm start
 ```
+---
 
 📌 Use Cases:
 
@@ -92,6 +90,7 @@ Fitness Center Administration
 MERN Stack Academic Project
 
 Mini / Major Project for Computer Science
+---
 
 🔮 Future Enhancements
 
@@ -105,10 +104,13 @@ Payment and subscription tracking
 
 Analytics dashboard
 
+---
 
 👨‍💻 Author
 
-Sakeeb Chougle
+Saqeeb Chougle
+
+===
 
 📜 License
 
